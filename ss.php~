@@ -1,0 +1,12 @@
+<?php
+$client_id= '128059155983-dsireqt2mlla671dkaa80i817ue9qf2n.apps.googleusercontent.com';
+$client_secret='5j9iMbedeCTGjzbUnvYUj6Ms';
+
+function debug($value){
+    echo "<h1>Debug data </h1>";
+    echo "<pre>";
+    print_r($value);
+    echo "</pre>";
+    exit;
+}
+?>
