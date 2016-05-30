@@ -5,7 +5,7 @@ error_reporting(E_ALL);
 
 $redirect_uri = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['PHP_SELF'];
 require_once 'vendor/autoload.php';
-
+   
 use Aws\S3\S3Client;
 $client = new Google_Client();
 $client->setClientId($client_id);
